@@ -50,7 +50,6 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<dm-core>, ["~> 1.2.0"])
       s.add_runtime_dependency(%q<randexp>, ["~> 0.1.5"])
-      s.add_runtime_dependency(%q<ParseTree>, ["~> 3.0.7"])
       s.add_development_dependency(%q<dm-validations>, ["~> 1.2.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
       s.add_development_dependency(%q<rake>, ["~> 0.9.2"])
@@ -58,7 +57,6 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<dm-core>, ["~> 1.2.0"])
       s.add_dependency(%q<randexp>, ["~> 0.1.5"])
-      s.add_dependency(%q<ParseTree>, ["~> 3.0.7"])
       s.add_dependency(%q<dm-validations>, ["~> 1.2.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
       s.add_dependency(%q<rake>, ["~> 0.9.2"])
@@ -67,7 +65,6 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<dm-core>, ["~> 1.2.0"])
     s.add_dependency(%q<randexp>, ["~> 0.1.5"])
-    s.add_dependency(%q<ParseTree>, ["~> 3.0.7"])
     s.add_dependency(%q<dm-validations>, ["~> 1.2.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
     s.add_dependency(%q<rake>, ["~> 0.9.2"])
